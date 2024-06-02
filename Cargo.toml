@@ -1,0 +1,13 @@
+[package]
+name = "valdos"
+version = "0.0.1"
+edition = "2021"
+authors = ["Shane Utt <shaneutt@linux.com>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
